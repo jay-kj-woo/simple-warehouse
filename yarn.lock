@@ -344,7 +344,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0":
+"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0, @typescript-eslint/parser@npm:^6.7.3":
   version: 6.7.3
   resolution: "@typescript-eslint/parser@npm:6.7.3"
   dependencies:
@@ -3989,6 +3989,7 @@ __metadata:
     "@types/node": latest
     "@types/react": latest
     "@types/react-dom": latest
+    "@typescript-eslint/parser": ^6.7.3
     autoprefixer: latest
     eslint: latest
     eslint-config-next: latest
