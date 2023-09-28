@@ -11,13 +11,13 @@
         {
           "id": 1,
           "productId": 2,
-          "productName:": "birthdayBox",
+          "productName": "birthdayBox",
           "price": 200
         },
         {
           "id": 2,
           "productId": 3,
-          "productName:": "cleanGiftBox",
+          "productName": "cleanGiftBox",
           "price": 300
         }
       ]
@@ -33,7 +33,7 @@
         {
           "id": 1,
           "productId": 1,
-          "productName:": "valentineBox",
+          "productName": "valentineBox",
           "price": 100
         }
       ]
@@ -49,13 +49,13 @@
         {
           "id": 1,
           "productId": 2,
-          "productName:": "birthdayBox",
+          "productName": "birthdayBox",
           "price": 200
         },
         {
           "id": 2,
           "productId": 2,
-          "productName:": "birthdayBox",
+          "productName": "birthdayBox",
           "price": 200
         }
       ]
@@ -71,13 +71,13 @@
         {
           "id": 1,
           "productId": 2,
-          "productName:": "birthdayBox",
+          "productName": "birthdayBox",
           "price": 200
         },
         {
           "id": 2,
           "productId": 3,
-          "productName:": "cleanGiftBox",
+          "productName": "cleanGiftBox",
           "price": 300
         }
       ]
