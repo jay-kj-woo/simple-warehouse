@@ -20,6 +20,9 @@
     ],
     "paths": {
       "@domain/*": ["./domain/*"],
+      "@application/*": ["./application/*"],
+      "@infra/*": ["./infra/*"],
+
       "@/*": ["./*"]
     }
   },

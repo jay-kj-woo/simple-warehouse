@@ -1,0 +1,86 @@
+{
+  "orders": [
+    {
+      "orderId": 1,
+      "orderTotal": 500.0,
+      "orderDate": "2023-09-25T17:37:52.666Z",
+      "shippingAddress": "canoe on the middle of lake louise",
+      "customerName": "Traveller Jay",
+      "customerEmail": "travellerjay123@gmail.com",
+      "lineItems": [
+        {
+          "id": 1,
+          "productId": 2,
+          "productName:": "birthdayBox",
+          "price": 200
+        },
+        {
+          "id": 2,
+          "productId": 3,
+          "productName:": "cleanGiftBox",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "orderId": 2,
+      "orderTotal": 100.0,
+      "orderDate": "2023-09-28T18:40:52.666Z",
+      "shippingAddress": "200 dollar doll house",
+      "customerName": "Poor Jay",
+      "customerEmail": "poorjay123@gmail.com",
+      "lineItems": [
+        {
+          "id": 1,
+          "productId": 1,
+          "productName:": "valentineBox",
+          "price": 100
+        }
+      ]
+    },
+    {
+      "orderId": 3,
+      "orderTotal": 400.0,
+      "orderDate": "2023-09-28T19:17:52.666Z",
+      "shippingAddress": "10 meter next to jays",
+      "customerName": "Neighbour Jay",
+      "customerEmail": "neighbourjay123@gmail.com",
+      "lineItems": [
+        {
+          "id": 1,
+          "productId": 2,
+          "productName:": "birthdayBox",
+          "price": 200
+        },
+        {
+          "id": 2,
+          "productId": 2,
+          "productName:": "birthdayBox",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "orderId": 4,
+      "orderTotal": 300.0,
+      "orderDate": "2023-09-28T17:37:52.666Z",
+      "shippingAddress": "100 million dollar dream house",
+      "customerName": "Jay",
+      "customerEmail": "jay123@gmail.com",
+      "lineItems": [
+        {
+          "id": 1,
+          "productId": 2,
+          "productName:": "birthdayBox",
+          "price": 200
+        },
+        {
+          "id": 2,
+          "productId": 3,
+          "productName:": "cleanGiftBox",
+          "price": 300
+        }
+      ]
+    }
+  ]
+}
