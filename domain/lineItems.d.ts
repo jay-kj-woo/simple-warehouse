@@ -1,1 +1,1 @@
-type LineItems = 'valentineBox' | 'birthdayBox' | 'cleanGiftBox';
+type LineItems = 'valentineBox' | 'birthdayBox' | 'clientGiftBox';

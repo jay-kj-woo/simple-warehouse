@@ -17,7 +17,7 @@
         {
           "id": 2,
           "productId": 3,
-          "productName": "cleanGiftBox",
+          "productName": "clientGiftBox",
           "price": 300
         }
       ]
@@ -77,7 +77,7 @@
         {
           "id": 2,
           "productId": 3,
-          "productName": "cleanGiftBox",
+          "productName": "clientGiftBox",
           "price": 300
         }
       ]
