@@ -6,7 +6,7 @@ export default async function PickupListPage() {
 
   return (
     <div>
-      <h1>Pick a date to see the list of pickup items</h1>
+      <h1 className="font-bold text-2xl mb-10 text-center">Pickup List</h1>
       <PickupList orders={orders} />
     </div>
   );

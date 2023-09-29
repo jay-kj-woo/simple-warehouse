@@ -28,31 +28,34 @@ export const PickupList = ({ orders }: Props) => {
     }
   };
   return (
-    <div className="flex flex-col gap-12">
-      <div className="flex gap-6">
-        <select
-          className=" bg-slate-700"
-          value={selected}
-          onChange={handleSelectChange}
-          name="dateasdf"
-        >
-          <option value="">--select the date--</option>
-          {dates.map((date) => (
-            <option value={date} key={date}>
-              {date}
-            </option>
-          ))}
-        </select>
-        <button
-          className="rounded px-4 py-2 border-slate-300 border"
-          onClick={() => {
-            handleSubmit(selected);
-          }}
-        >
-          Show Items
-        </button>
+    <div className="flex flex-col justify-center items-center">
+      <h1 className="mb-4">Pick a date to see the list of pickup items</h1>
+      <div className="flex flex-col gap-12">
+        <div className="flex gap-6  justify-center">
+          <select
+            className=" bg-slate-700"
+            value={selected}
+            onChange={handleSelectChange}
+            name="dateasdf"
+          >
+            <option value="">--select the date--</option>
+            {dates.map((date) => (
+              <option value={date} key={date}>
+                {date}
+              </option>
+            ))}
+          </select>
+          <button
+            className="rounded px-4 py-2 border-slate-300 border"
+            onClick={() => {
+              handleSubmit(selected);
+            }}
+          >
+            Show Items
+          </button>
+        </div>
+        {list && <ListItem items={list} />}
       </div>
-      {list && <ListItem items={list} />}
     </div>
   );
 };
