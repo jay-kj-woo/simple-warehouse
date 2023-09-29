@@ -1,3 +1,4 @@
+import { OrderMapper } from '@application/mapper/OrderMapper';
 import { GetOrders } from '@application/usecases/GetOrders';
 import { Order } from '@domain/Order';
 import { DatabaseClient } from '@infra/db/DatabaseClient';
@@ -8,5 +9,6 @@ export const getOrdersAction = async () => {
   const repo = new OrderRepositoryIpml(client);
   const usecase = new GetOrders(repo);
   const orders = await usecase.execute();
-  return orders;
+  const formattedOrders = orders.map((order) => OrderMapper.toOrderDto(order));
+  return formattedOrders;
 };
